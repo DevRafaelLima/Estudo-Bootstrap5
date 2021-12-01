@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.topo {
+    width: 100%;
+    font-size: 10px;
+    color: #fff;
+    background-color: #222222;
+    height: 25px;
+    line-height: 25px;
+}
+.topo .redes-sociais {
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+}
+.topo span {
+    margin-left: 5px;
+}
+.logo-hospital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+}
+.menu {
+    background-color: #34abb1;
+    height: 40px;
+    position:relative;
+    border-radius: 5px;
+}
+/*Banner*/
+.banner {
+    background-image: url('banner.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    height: 330px;
+    margin-top: -20px;
+    color: #fff;
+} 
+.banner .conteudo-banner {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*especialidades*/
+.especialidades {
+    overflow: hidden;
+}
+.especialidades span i {
+
+    background-color: #fff;
+}
+.especialidades .coluna-1{
+    background-color: #34abb1;
+    display: flex;
+    justify-content: flex-end;
+}
+.especialidades .coluna-2{
+    background-color: #2eb5bb;
+}
+.especialidades .coluna-3{
+    background-color: #37bec4;
+}
+.especialidades .coluna-4{
+    background-color: #42c9cf;
+}
+.especialidades .conteudo{
+    width: 200px;
+    height: 200px;
+    padding-top: 15px;
+    color: #fff;
+}
+.especialidades .conteudo h2 {
+    color: #fff;
+    font-size: 18px;
+}
+.especialidades .conteudo p {
+    text-align: justify;
+}
+
+/*hospital*/
+#hospital {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+
+}
+#hospital .noticia {
+    display: flex;
+    flex-direction: column;
+    
+}
+#hospital .noticia .img {
+    width: 300px;
+    height: 200px;
+}
+#hospital .noticia .img img {
+    width: 100%;
+}
+#hospital .noticia h2 {
+    font-size: 19px;
+}
+#hospital .noticia p {
+    color: #8c8c8c;
+}
+#hospital .noticia a {
+    text-decoration: none;
+    color: #2eb5bb;
+    font-size: 12px;
+}
+/*levea-message*/
+#levea-message {
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+    color: #fff;
+}
+#levea-message span {
+    color: fff;
+    font-weight: bold;
+}
+#levea-message a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+/*services*/
+#services {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-right: 50px;
+}
+.service {
+    margin-bottom: 60px;
+}
+.service .img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+}
+.service .img img{
+    width: 100%;
+}
+.service h3 {
+    font-size: 15px;
+}
+.service p {
+    font-size: 13px;
+    color: #9e9e9e;
+}
+
+/*localization*/
+#localization {
+    height: 400px;
+    background-image: url('maps-fundo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#localization .maps {
+    margin-top: 20px;
+}
+#localization .maps h3{
+    font-size: 15px;
+}
+.imagem {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.imagem img {
+    width: 300px;
+    height: 200px;
+}
+.imagem h3 {
+    font-size: 15px;
+}
+.imagem p {
+    font-size: 13px;
+    color: #868686;
+}
+
+
+/*Galery*/
+.galeria-sliders .slider {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.galeria-sliders .slider-width {
+    /* width: 12000px; */
+    transition: all ease 0.3s;
+}
+.galeria-sliders .slider-item {
+    width: 300px;
+    height: 180px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.galeria-sliders .slider-item img {
+    width: 100%;
+    height: 100%;
+}
+.galeria-sliders .slider-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+.galeria-sliders .slider-controls span {
+    margin: 10px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #2eb5bb;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+/*Depoimentos*/
+.depoiments {
+    margin-top: 150px;
+    background-image: url('pexels-evg-culture-1170979.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.depoiments .sliders {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    border: 1px dashed #fff;
+    border-radius: 5px;
+}
+.depoiments-slider-width {
+    width: calc(100vh * 5);
+    background-color: #222222;
+    transition: all ease 0.3s;
+}
+.depoiments .slider-item {
+    float: left;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    color: #fff;
+}
+.depoiments .image {
+    width: 100px;
+    height: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.depoiments .image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.depoiments .controls {
+    position: absolute;
+    z-index: 999;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.depoiments .control {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.depoiments .control span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+/*Blog*/
+.blog .noticia {
+    display: flex;
+    flex-direction: column;
+}
+.blog .image {
+    width: 300px;
+    height: 230px;
+}
+.blog .image img {
+    width: 100%;
+    height: 100%;
+}
+.blog .conteudo h1{
+    font-size: 20px;
+}
+.blog .info {
+    font-size: 12px;
+    color: #888;
+}
+.blog .info span {
+    color: #2eb5bb
+}
+.blog .conteudo p {
+    font-size: 15px;
+    color: #888;
+}
+.blog .conteudo a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #2eb5bb;
+}
+
+footer {
+    background-color: #222222;
+}
+footer .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .container h2 {
+    color:#f5f5f5;
+    font-size: 18px;
+}
+footer .container p {
+    font-size: 13px;
+    color: #868686;
+    margin-bottom: 30px;
+}
+footer .container input {
+    width: 150px;
+    background-color: #2f2f2f;
+    color: #5e5e5e;
+}
+footer .container a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2eb5bb;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+footer .footer {
+    background-color: #050505;
+    color: #5e5e5e;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+footer .footer a {
+    text-decoration: none;
+    margin: 5px;
+    color: #5e5e5e;
+    font-size: 13px;
+}
+footer .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*titulo*/
+.titulo {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1 {
+    font-size: 20px;
+}
+.titulo .barra {
+    height: 5px;
+    width: 100px;
+    background-color: #2eb5bb;
+}
